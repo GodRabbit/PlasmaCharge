@@ -1,5 +1,6 @@
 {
 	"krakulhu":{
+		"innerid":"m001",
 		"id":"krakulhu",
 		"name":"Krakulhu",
 		"resistances":{"inferno":20},
@@ -10,6 +11,7 @@
 		"atk_spd":2.8
 	},
 	"krakulhu_dark":{
+		"innerid":"m002",
 		"id":"krakulhu_dark",
 		"name":"Krakulhu Dark",
 		"resistances":{"inferno":10, "frost":10},
@@ -20,6 +22,7 @@
 		"atk_spd":2.2
 	},
 	"krakulhu_pink":{
+		"innerid":"m003",
 		"id":"krakulhu_pink",
 		"name":"Krakulhu Pink",
 		"resistances":{"inferno":10, "poison":10},
@@ -30,6 +33,7 @@
 		"atk_spd":2.0
 	},
 	"d_bug":{
+		"innerid":"m004",
 		"id":"d_bug",
 		"name":"D-Bug",
 		"resistances":{},
@@ -40,6 +44,7 @@
 		"atk_spd":2.5
 	},
 	"northern_oval":{
+		"innerid":"m005",
 		"id":"northern_oval",
 		"name":"Northern Oval",
 		"resistances":{"poison":10},
@@ -50,6 +55,7 @@
 		"atk_spd":2.5
 	},
 	"mechalo":{
+		"innerid":"m006",
 		"id":"mechalo",
 		"name":"Mechalo",
 		"resistances":{"poison":20, "abyss":5},
@@ -60,6 +66,7 @@
 		"atk_spd":2.0
 	},
 	"mechalo_frost":{
+		"innerid":"m007",
 		"id":"mechalo_frost",
 		"name":"Mechalo (frost)",
 		"resistances":{"inferno":5, "frost":10, "poison":15},
@@ -70,6 +77,7 @@
 		"atk_spd":2.0
 	},
 	"kartiv":{
+		"innerid":"m008",
 		"id":"kartiv",
 		"name":"Kartiv",
 		"resistances":{"frost":10},
@@ -80,6 +88,7 @@
 		"atk_spd":2.0
 	},
 	"heshek":{
+		"innerid":"m009",
 		"id":"heshek",
 		"name":"Heshek",
 		"resistances":{"poison":10, "abyss":10},
@@ -90,6 +99,7 @@
 		"atk_spd":2.7
 	},
 	"bambazoo":{
+		"innerid":"m010",
 		"id":"bambazoo",
 		"name":"Bambazoo",
 		"resistances":{"inferno":10},
@@ -100,6 +110,7 @@
 		"atk_spd":2.0
 	},
 	"xyten_depths":{
+		"innerid":"m011",
 		"id":"xyten_depths",
 		"name":"Xyten (Depths)",
 		"resistances":{"poison":10},
@@ -110,6 +121,7 @@
 		"atk_spd":2.0
 	},
 	"xyten_inferno":{
+		"innerid":"m012",
 		"id":"xyten_inferno",
 		"name":"Xyten (Inferno)",
 		"resistances":{"poison":10},
@@ -120,6 +132,7 @@
 		"atk_spd":2.0
 	},
 	"xyten_abyss":{
+		"innerid":"m013",
 		"id":"xyten_abyss",
 		"name":"Xyten (Abyss)",
 		"resistances":{"abyss":20},
@@ -130,6 +143,7 @@
 		"atk_spd":2.0
 	},
 	"xyten_desire":{
+		"innerid":"m014",
 		"id":"xyten_desire",
 		"name":"Xyten (Desire)",
 		"resistances":{"poison":15, "abyss":5},
@@ -140,6 +154,7 @@
 		"atk_spd":2.0
 	},
 	"xyten_frost":{
+		"innerid":"m015",
 		"id":"xyten_frost",
 		"name":"Xyten (frost)",
 		"resistances":{"frost":25},
@@ -150,6 +165,7 @@
 		"atk_spd":2.0
 	},
 	"xyten_doom":{
+		"innerid":"m016",
 		"id":"xyten_doom",
 		"name":"Xyten (Doom)",
 		"resistances":{"poison":10},
@@ -160,6 +176,7 @@
 		"atk_spd":2.0
 	},
 	"legtrap":{
+		"innerid":"m017",
 		"id":"legtrap",
 		"name":"Legtrap",
 		"resistances":{"poison":10},
@@ -170,6 +187,7 @@
 		"atk_spd":3.0
 	},
 	"legtrap_frost":{
+		"innerid":"m018",
 		"id":"legtrap_frost",
 		"name":"Stinging Legtrap",
 		"resistances":{"poison":10, "frost":20},
@@ -180,6 +198,7 @@
 		"atk_spd":3.0
 	},
 	"ragailio":{
+		"innerid":"m019",
 		"id":"ragailio",
 		"name":"Raga'ilio",
 		"resistances":{"abyss":20},
@@ -190,6 +209,7 @@
 		"atk_spd":2.0
 	},
 	"waster":{
+		"innerid":"m020",
 		"id":"waster",
 		"name":"Waster",
 		"resistances":{"poison":20},
@@ -200,6 +220,7 @@
 		"atk_spd":1.0
 	},
 	"solecon":{
+		"innerid":"m021",
 		"id":"solecon",
 		"name":"Solecon",
 		"resistances":{"poison":20},
@@ -210,6 +231,7 @@
 		"atk_spd":2.0
 	},
 	"waelot":{
+		"innerid":"m022",
 		"id":"waelot",
 		"name":"Wae'lot",
 		"resistances":{"abyss":10},
@@ -220,6 +242,7 @@
 		"atk_spd":2.0
 	},
 	"waelot_woke":{
+		"innerid":"m023",
 		"id":"waelot_woke",
 		"name":"Woke Wae'lot",
 		"resistances":{"poison":10, "abyss":10},
@@ -230,6 +253,7 @@
 		"atk_spd":2.5
 	},
 	"mursil":{
+		"innerid":"m024",
 		"id":"mursil",
 		"name":"Mursil",
 		"resistances":{"poison":10, "thunder":15},
@@ -240,6 +264,7 @@
 		"atk_spd":2.0
 	},
 	"shut_dreamer":{
+		"innerid":"m025",
 		"id":"shut_dreamer",
 		"name":"Shut Dreamer",
 		"resistances":{"poison":10, "abyss":20},
@@ -250,6 +275,7 @@
 		"atk_spd":2.0
 	},
 	"cool_impulse":{
+		"innerid":"m026",
 		"id":"cool_impulse",
 		"name":"Cool Impulse",
 		"resistances":{"abyss":10, "frost":50},
@@ -260,6 +286,7 @@
 		"atk_spd":2.6
 	},
 	"teddy_spilled":{
+		"innerid":"m027",
 		"id":"teddy_spilled",
 		"name":"TeDDy SPilleD",
 		"resistances":{"abyss":100},
@@ -270,6 +297,7 @@
 		"atk_spd":2.3
 	},
 	"inskin_bruiser":{
+		"innerid":"m028",
 		"id":"inskin_bruiser",
 		"name":"inskin_bruiser",
 		"resistances":{"inferno":10, "thunder":10, "abyss":20},
