@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/gui/type_gui.gd" type="Script" id=1]
+[ext_resource path="res://images/gui/types/frost.png" type="Texture" id=2]
+
+[node name="type_gui" type="Control"]
+margin_right = 109.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 109, 20 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="type_cover" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 2 )
+
+[node name="percentage_label" type="Label" parent="type_cover"]
+margin_left = 64.0
+margin_top = 4.0
+margin_right = 104.0
+margin_bottom = 35.0
+text = "76%
+"

@@ -1,0 +1,107 @@
+{
+	"plasma_beam":{
+		"id":"plasma_beam",
+		"name":"Plasma Beam",
+		"dmg":[[4,4], [5,6], [8,9]],
+		"cost":[15, 15, 17],
+		"dmg_type":"true"
+	},
+	"freezing_beam":{
+		"id":"freezing_beam",
+		"name":"Freezing Beam",
+		"dmg":[[10,10], [14,14], [20,20]],
+		"cost":[17, 18, 20],
+		"dmg_type":"frost"
+	},
+	"fearsome_blast":{
+		"id":"fearsome_blast",
+		"name":"Fearsome Blast",
+		"dmg":[[10,10], [11,11], [25,25]],
+		"cost":[5, 7, 15],
+		"dmg_type":"abyss"
+	},
+	"arcane_spit":{
+		"id":"arcane_spit",
+		"name":"Arcane Spit",
+		"dmg":[[5,30], [5,35], [5,60]],
+		"cost":[15, 15, 15],
+		"dmg_type":"poison"
+	},
+	"h2no":{
+		"id":"h2no",
+		"name":"H2No",
+		"dmg":[[40,40], [40,41], [40,42]],
+		"cost":[50, 45, 20],
+		"dmg_type":"frost"
+	},
+	"arch_saw":{
+		"id":"arch_saw",
+		"name":"Arch Saw",
+		"dmg":[[30,30], [40,40], [40,50]],
+		"cost":[30, 25, 28],
+		"dmg_type":"abyss"
+	},
+	"sword_of_emptiness":{
+		"id":"sword_of_emptiness",
+		"name":"Sword of Emptiness",
+		"dmg":[[20,20], [20,20], [50,50]],
+		"cost":[30, 35, 25],
+		"dmg_type":"abyss"
+	},
+	"passion_boom":{
+		"id":"passion_boom",
+		"name":"Passion Boom",
+		"dmg":[[20,30], [25,30], [30,30]],
+		"cost":[70, 40, 10],
+		"dmg_type":"inferno"
+	},
+	"purifying_fire":{
+		"id":"purifying_fire",
+		"name":"Purifying Fire",
+		"dmg":[[10,10], [15,15], [55,55]],
+		"cost":[10, 10, 20],
+		"dmg_type":"inferno"
+	},
+	"holy_splash":{
+		"id":"holy_splash",
+		"name":"Holy Splash",
+		"dmg":[[20,20], [35,35], [35,35]],
+		"cost":[33, 30, 20],
+		"dmg_type":"frost"
+	},
+	"call_of_the_abyss":{
+		"id":"call_of_the_abyss",
+		"name":"Call of the Abyss",
+		"dmg":[[30,30], [30,31], [30,32]],
+		"cost":[20, 20, 20],
+		"dmg_type":"abyss"
+	},
+	"sharp_cold":{
+		"id":"sharp_cold",
+		"name":"Sharp Cold",
+		"dmg":[[10,30], [5,50], [1,70]],
+		"cost":[20, 20, 20],
+		"dmg_type":"frost"
+	},
+	"pine_pain":{
+		"id":"pine_pain",
+		"name":"Pine Pain",
+		"dmg":[[50,50], [50,50], [70,80]],
+		"cost":[50, 30, 25],
+		"dmg_type":"poison"
+	},
+	"arrow_dance":{
+		"id":"arrow_dance",
+		"name":"Arrow Dance",
+		"dmg":[[10,13], [10,13], [13,15]],
+		"cost":[60, 50, 50],
+		"dmg_type":"true"
+	},
+	"sparky_plasma":{
+		"id":"sparky_plasma",
+		"name":"Sparky Plasma",
+		"dmg":[[10,13], [15,25], [18,25]],
+		"cost":[10, 11, 12],
+		"dmg_type":"thunder"
+	}
+}

@@ -1,0 +1,104 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://scripts/gui/hud.gd" type="Script" id=1]
+[ext_resource path="res://images/gui/charge_bar_empty.png" type="Texture" id=2]
+[ext_resource path="res://images/gui/charge_bar_full.png" type="Texture" id=3]
+[ext_resource path="res://fonts/Aldrich/Aldrich-Regular.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://scenes/gui/weapon_manager.tscn" type="PackedScene" id=5]
+[ext_resource path="res://images/gui/exp_bar_empty.png" type="Texture" id=6]
+[ext_resource path="res://images/gui/exp_bar_full.png" type="Texture" id=7]
+[ext_resource path="res://images/gui/xp_label.png" type="Texture" id=8]
+[ext_resource path="res://images/gui/health_bar_empty.png" type="Texture" id=9]
+[ext_resource path="res://images/gui/health_bar_full.png" type="Texture" id=10]
+[ext_resource path="res://images/gui/hp_label.png" type="Texture" id=11]
+[ext_resource path="res://images/gui/close_icon.png" type="Texture" id=12]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 20, 20 )
+
+[node name="hud" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="charge_bar" type="TextureProgress" parent="."]
+margin_left = 10.0
+margin_top = 20.0
+margin_right = 58.0
+margin_bottom = 223.0
+value = 75.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 3 )
+fill_mode = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="labels_vbox" type="VBoxContainer" parent="charge_bar"]
+margin_left = -10.0
+margin_top = 210.0
+margin_right = 63.0
+margin_bottom = 253.0
+theme = SubResource( 2 )
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="charge_label" type="Label" parent="charge_bar/labels_vbox"]
+margin_top = 3.0
+margin_right = 73.0
+margin_bottom = 19.0
+text = "17%"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lvl_label" type="Label" parent="charge_bar/labels_vbox"]
+margin_top = 23.0
+margin_right = 73.0
+margin_bottom = 39.0
+custom_colors/font_color = Color( 0.9767, 0.988281, 0.980681, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "LVL. 03"
+
+[node name="weapon_manager" parent="." instance=ExtResource( 5 )]
+margin_top = 580.0
+margin_bottom = 620.0
+
+[node name="exp_bar" type="TextureProgress" parent="."]
+margin_left = 80.0
+margin_top = 565.0
+margin_right = 455.0
+margin_bottom = 605.0
+value = 69.0
+texture_under = ExtResource( 6 )
+texture_progress = ExtResource( 7 )
+
+[node name="xp_sprite" type="Sprite" parent="exp_bar"]
+position = Vector2( -20, 10 )
+scale = Vector2( 0.592593, 0.647059 )
+texture = ExtResource( 8 )
+
+[node name="hp_bar" type="TextureProgress" parent="."]
+margin_left = 80.0
+margin_top = 530.0
+margin_right = 454.0
+margin_bottom = 560.0
+value = 75.0
+texture_under = ExtResource( 9 )
+texture_progress = ExtResource( 10 )
+
+[node name="hp_sprite" type="Sprite" parent="hp_bar"]
+position = Vector2( -30, 15 )
+texture = ExtResource( 11 )
+
+[node name="button_close" type="TouchScreenButton" parent="."]
+position = Vector2( 410, 20 )
+scale = Vector2( 1.13636, 1.13636 )
+normal = ExtResource( 12 )
+shape = SubResource( 3 )

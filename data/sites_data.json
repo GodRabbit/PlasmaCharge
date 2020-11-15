@@ -1,0 +1,27 @@
+{
+	"basic_enemy":{
+        "id":"basic_enemy",
+        "name":"basic_enemy",
+		"backgrounds":["background"],
+		"enemies":["d_bug", "mechalo", "kartiv", "waelot", "solecon"]
+	},
+	"otof":{
+		"id":"otof",
+		"name":"Otof",
+        "backgrounds":["otof_west_back", "otof_east_back"],
+        "enemies":["heshek", "bambazoo", "krakulhu_pink", "xyten_desire"]
+	},
+	"frost_planet1":{
+		"id":"frost_planet1",
+		"name":"frost_planet1",
+        "backgrounds":["frozen1"],
+        "enemies":["xyten_glacier", "krakulhu_dark", "mechalo_glacier", "kartiv", "northern_oval", "legtrap", "legtrap_glacier"]
+	},
+	"psylev":{
+		"id":"psylev",
+		"name":"Psylev",
+        "backgrounds":["background"],
+        "enemies":["inskin_bruiser","teddy_spilled", "cool_impulse", "shut_dreamer", "mursil", "waelot_woke"]
+        
+    }
+}

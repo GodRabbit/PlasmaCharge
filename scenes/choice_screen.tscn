@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scenes/gui/choice_button.tscn" type="PackedScene" id=1]
+[ext_resource path="res://images/gui/background_menu.png" type="Texture" id=2]
+[ext_resource path="res://scripts/gui/choice_screen.gd" type="Script" id=3]
+
+[node name="choice_screen" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 240, 400 )
+texture = ExtResource( 2 )
+
+[node name="choice_button_up" parent="." instance=ExtResource( 1 )]
+position = Vector2( 136, 170 )
+
+[node name="choice_button_down" parent="." instance=ExtResource( 1 )]
+position = Vector2( 136, 510 )
+
+[node name="head_label" type="Label" parent="."]
+margin_left = 180.0
+margin_top = 90.0
+margin_right = 282.0
+margin_bottom = 104.0
+text = "Choose a Weapon"
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,11 @@
+New damage types:
+Inferno
+Frost
+Nature
+Thunder
+
+The way the new system works:
+each monster has weakneses and strengths that are constant [i.e do not change from 1 playthrough to the next]
+instead of just attacking you can spend charge [10%??] to reveal 1 weakness or resistance of the monster, but it costs a turn
+
+The combat is turn based, TRUE turn based.

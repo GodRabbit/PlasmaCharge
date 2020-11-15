@@ -1,0 +1,22 @@
+{
+	"basic_enemy":{
+		"id":"basic_enemy",
+		"backgrounds":["background"],
+		"enemies":["d_bug", "mechalo", "kartic"]
+	}
+	"otof_west":{
+		"id":"otof_west",
+		"name":"Otof West",
+		"background":"otof_west_back"
+	},
+	"otof_east":{
+		"id":"otof_east",
+		"name":"Otof East",
+		"background":"otof_east_back"
+	},
+	"psylev":{
+		"id":"psylev",
+		"name":"Psylev",
+		"background":"psylev_back"
+	}
+}

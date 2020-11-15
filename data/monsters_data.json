@@ -1,0 +1,283 @@
+{
+	"krakulhu":{
+		"id":"krakulhu",
+		"name":"Krakulhu",
+		"resistances":{"inferno":20},
+		"weaknesses":{"thunder":20},
+		"hp":65,
+		"dmg":40,
+		"def":45,
+		"atk_spd":2.8
+	},
+	"krakulhu_dark":{
+		"id":"krakulhu_dark",
+		"name":"Krakulhu Dark",
+		"resistances":{"inferno":10, "frost":10},
+		"weaknesses":{"thunder":10, "poison":10},
+		"hp":65,
+		"dmg":45,
+		"def":40,
+		"atk_spd":2.2
+	},
+	"krakulhu_pink":{
+		"id":"krakulhu_pink",
+		"name":"Krakulhu Pink",
+		"resistances":{"inferno":10, "poison":10},
+		"weaknesses":{"thunder":20},
+		"hp":65,
+		"dmg":42.5,
+		"def":42.5,
+		"atk_spd":2.0
+	},
+	"d_bug":{
+		"id":"d_bug",
+		"name":"D-Bug",
+		"resistances":{},
+		"weaknesses":{"inferno":20},
+		"hp":35,
+		"dmg":65,
+		"def":60,
+		"atk_spd":2.5
+	},
+	"northern_oval":{
+		"id":"northern_oval",
+		"name":"Northern Oval",
+		"resistances":{"poison":10},
+		"weaknesses":{"thunder":20},
+		"hp":70,
+		"dmg":30,
+		"def":15,
+		"atk_spd":2.5
+	},
+	"mechalo":{
+		"id":"mechalo",
+		"name":"Mechalo",
+		"resistances":{"poison":20, "abyss":5},
+		"weaknesses":{"inferno":10},
+		"hp":40,
+		"dmg":30,
+		"def":65,
+		"atk_spd":2.0
+	},
+	"mechalo_frost":{
+		"id":"mechalo_frost",
+		"name":"Mechalo (frost)",
+		"resistances":{"inferno":5, "frost":10, "poison":15},
+		"weaknesses":{"thunder":20},
+		"hp":40,
+		"dmg":30,
+		"def":65,
+		"atk_spd":2.0
+	},
+	"kartiv":{
+		"id":"kartiv",
+		"name":"Kartiv",
+		"resistances":{"frost":10},
+		"weaknesses":{"inferno":20},
+		"hp":45,
+		"dmg":60,
+		"def":40,
+		"atk_spd":2.0
+	},
+	"heshek":{
+		"id":"heshek",
+		"name":"Heshek",
+		"resistances":{"poison":10, "abyss":10},
+		"weaknesses":{"thunder":20},
+		"hp":80,
+		"dmg":45,
+		"def":40,
+		"atk_spd":2.7
+	},
+	"bambazoo":{
+		"id":"bambazoo",
+		"name":"Bambazoo",
+		"resistances":{"inferno":10},
+		"weaknesses":{"frost":20},
+		"hp":30,
+		"dmg":47,
+		"def":42,
+		"atk_spd":2.0
+	},
+	"xyten_depths":{
+		"id":"xyten_depths",
+		"name":"Xyten (Depths)",
+		"resistances":{"poison":10},
+		"weaknesses":{"thunder":20},
+		"hp":150,
+		"dmg":60,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"xyten_inferno":{
+		"id":"xyten_inferno",
+		"name":"Xyten (Inferno)",
+		"resistances":{"poison":10},
+		"weaknesses":{"thunder":20},
+		"hp":150,
+		"dmg":60,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"xyten_abyss":{
+		"id":"xyten_abyss",
+		"name":"Xyten (Abyss)",
+		"resistances":{"abyss":20},
+		"weaknesses":{"poison":10},
+		"hp":150,
+		"dmg":60,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"xyten_desire":{
+		"id":"xyten_desire",
+		"name":"Xyten (Desire)",
+		"resistances":{"poison":15, "abyss":5},
+		"weaknesses":{"thunder":20},
+		"hp":150,
+		"dmg":60,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"xyten_frost":{
+		"id":"xyten_frost",
+		"name":"Xyten (frost)",
+		"resistances":{"frost":25},
+		"weaknesses":{"inferno":20},
+		"hp":150,
+		"dmg":60,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"xyten_doom":{
+		"id":"xyten_doom",
+		"name":"Xyten (Doom)",
+		"resistances":{"poison":10},
+		"weaknesses":{"thunder":20},
+		"hp":150,
+		"dmg":60,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"legtrap":{
+		"id":"legtrap",
+		"name":"Legtrap",
+		"resistances":{"poison":10},
+		"weaknesses":{"thunder":20},
+		"hp":40,
+		"dmg":42,
+		"def":42,
+		"atk_spd":3.0
+	},
+	"legtrap_frost":{
+		"id":"legtrap_frost",
+		"name":"Stinging Legtrap",
+		"resistances":{"poison":10, "frost":20},
+		"weaknesses":{"thunder":20, "abyss":15},
+		"hp":40,
+		"dmg":42,
+		"def":42,
+		"atk_spd":3.0
+	},
+	"ragailio":{
+		"id":"ragailio",
+		"name":"Raga'ilio",
+		"resistances":{"abyss":20},
+		"weaknesses":{"poison":30},
+		"hp":100,
+		"dmg":40,
+		"def":35,
+		"atk_spd":2.0
+	},
+	"waster":{
+		"id":"waster",
+		"name":"Waster",
+		"resistances":{"poison":20},
+		"weaknesses":{},
+		"hp":50,
+		"dmg":40,
+		"def":35,
+		"atk_spd":1.0
+	},
+	"solecon":{
+		"id":"solecon",
+		"name":"Solecon",
+		"resistances":{"poison":20},
+		"weaknesses":{"abyss":30},
+		"hp":20,
+		"dmg":40,
+		"def":70,
+		"atk_spd":2.0
+	},
+	"waelot":{
+		"id":"waelot",
+		"name":"Wae'lot",
+		"resistances":{"abyss":10},
+		"weaknesses":{"poison":20},
+		"hp":35,
+		"dmg":50,
+		"def":35,
+		"atk_spd":2.0
+	},
+	"waelot_woke":{
+		"id":"waelot_woke",
+		"name":"Woke Wae'lot",
+		"resistances":{"poison":10, "abyss":10},
+		"weaknesses":{"inferno":20, "frost":15},
+		"hp":70,
+		"dmg":40,
+		"def":35,
+		"atk_spd":2.5
+	},
+	"mursil":{
+		"id":"mursil",
+		"name":"Mursil",
+		"resistances":{"poison":10, "thunder":15},
+		"weaknesses":{"inferno":20},
+		"hp":15,
+		"dmg":40,
+		"def":100,
+		"atk_spd":2.0
+	},
+	"shut_dreamer":{
+		"id":"shut_dreamer",
+		"name":"Shut Dreamer",
+		"resistances":{"poison":10, "abyss":20},
+		"weaknesses":{"thunder":20, "frost":10, "inferno":10},
+		"hp":40,
+		"dmg":45,
+		"def":45,
+		"atk_spd":2.0
+	},
+	"cool_impulse":{
+		"id":"cool_impulse",
+		"name":"Cool Impulse",
+		"resistances":{"abyss":10, "frost":50},
+		"weaknesses":{"poison":50, "inferno":15},
+		"hp":28,
+		"dmg":20,
+		"def":100,
+		"atk_spd":2.6
+	},
+	"teddy_spilled":{
+		"id":"teddy_spilled",
+		"name":"TeDDy SPilleD",
+		"resistances":{"abyss":100},
+		"weaknesses":{},
+		"hp":56,
+		"dmg":50,
+		"def":55,
+		"atk_spd":2.3
+	},
+	"inskin_bruiser":{
+		"id":"inskin_bruiser",
+		"name":"inskin_bruiser",
+		"resistances":{"inferno":10, "thunder":10, "abyss":20},
+		"weaknesses":{},
+		"hp":45,
+		"dmg":45,
+		"def":55,
+		"atk_spd":2.0
+	}
+
+}
