@@ -33,6 +33,7 @@ var atk_speed = 3.0 #in seconds
 var is_dead = false
 var enemy_name = "spirit"
 var enemy_id = "spirit"
+var innerid = "m001"
 
 var weaknesses = {}
 var resistances = {}
@@ -53,6 +54,7 @@ func init_data_from_dictionary(dic):
 	#enemy_types = dic["types"] # deprecated
 	weaknesses = dic["weaknesses"]
 	resistances = dic["resistances"]
+	innerid = dic["innerid"]
 
 #note that this func argument is an enemy dictionary and not id!!
 func _init(enemy_dic, lvl):
@@ -70,6 +72,9 @@ func init_random_enemy(lvl):
 
 func get_id():
 	return enemy_id
+
+func get_innerid():
+	return innerid
 
 func get_level():
 	return level

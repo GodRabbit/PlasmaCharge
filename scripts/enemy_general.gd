@@ -33,6 +33,7 @@ onready var hp_bar = get_node("hp_bar")
 onready var attack_timer = get_node("attack_timer")
 onready var dmg_label = get_node("damage_indicator/dmg_label")
 onready var anim = get_node("anim")
+onready var innerid_label = get_node("innerid_label")
 
 var current_enemy
 
@@ -97,6 +98,8 @@ func update_gui():
 		tg.set_type(r)
 		tg.set_value(rs[r])
 		resistances_box.add_child(tg)
+	
+	innerid_label.text = current_enemy.get_innerid()
 	
 	# update hp_bar:
 	update_hp_bar()
